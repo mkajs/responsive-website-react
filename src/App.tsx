@@ -1,4 +1,11 @@
+import { Navbar, Hero } from "@components/index";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div className="bg-background font-display">
+      <Navbar />
+      <Hero />
+    </div>
+  );
 };
 export default App;
