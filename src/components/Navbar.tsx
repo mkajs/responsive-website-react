@@ -3,7 +3,7 @@ import { useState } from "react";
 import MobileNabar from "./MobileNabar";
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState<boolean>(true);
+  const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   // const toggleMenu = () => {
   //   setIsMenuOpen(!isMenuOpen);
   // };
